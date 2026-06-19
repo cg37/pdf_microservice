@@ -1,0 +1,14 @@
+{
+    "name": "pdf-microservice",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "node --watch src/index.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@hono/node-server": "^1.11.1",
+        "hono": "^4.3.7",
+        "puppeteer": "^22.10.0"
+    }
+}
